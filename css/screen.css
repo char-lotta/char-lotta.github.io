@@ -14,13 +14,11 @@ height: auto;
 
 
 h1{
-	font-family: 'Nunito', sans-serif;
-	font-size: 1.8em;
+	font-size: 1.1em;
 	color: #474747;
 	font-weight:lighter;
-	text-align: center;
-	margin: 4% auto;
-	line-height: 1.2em;
+	line-height: 1.5em;
+	font-family: 'Nunito', sans-serif;
 }
 
 p{
@@ -34,8 +32,8 @@ p{
 
 h2 {
 	font-family: 'Nunito', sans-serif;;
-	font-size: 1.2em;
-	text-align: center;
+	font-size: 2.8em;
+	text-align:;
 	text-transform:;
 	color: #474747;
 	font-weight:lighter;
@@ -80,7 +78,7 @@ h3 {
 	margin: 40px auto 2px auto;
 }	
 .logga-area1{
-	width: 80%;
+	width: 50%;
 	float: none;
 	margin: 0 auto 5% auto;
 }
@@ -289,6 +287,48 @@ font-size: 90%; font-style: italic;}
 	width: 304px;
 	box-sizing: border-box;
 }
+.bildbox-left-bred {
+	border: solid 0ppx #000;
+	float: left; 
+	margin:  6% 0 0 6%;  
+	position: relative;
+	display: block;
+	height: auto;	
+	background: no-repeat center top -10px;
+	overflow: hidden;
+	background-size: 110% 110%;
+	width:620px;
+	padding-top: 8%;
+	box-sizing: border-box; 
+}
+.bildbox-left-text{
+	border: solid 0px #000;
+	float: left; 
+	margin:  6% 0 0 6%; 
+	padding-top: 8%; 
+	position: relative;
+	display: block;
+	height: auto;	
+	background: no-repeat center top -10px;
+	overflow: hidden;
+	background-size: 110% 110%;
+	width:304px;
+	box-sizing: border-box; 
+}
+.bildbox-right-text{
+	border: solid 0px #000;
+	float: left; 
+	margin:  6% 0 0 6%; 
+	padding-top: 8%; 
+	position: relative;
+	display: block;
+	height: auto;	
+	background: no-repeat center top -10px;
+	overflow: hidden;
+	background-size: 110% 110%;
+	width:304px;
+	box-sizing: border-box; 
+}
 
 
 
@@ -370,29 +410,13 @@ item:first-child {
 }
 
 /* Flodens Guldsmide  använder smamma continer som portfolio*/
-.vanster{
-	width: 30%; 
+.flodenlogga{
+	width: 148%; 
 	float: left; 
-	margin: 10% auto 5% 7%;  
+	margin: 8% 0% 0% 0%;  
 	box-sizing: border-box;  
 }
-.g-logga{
-	width: 100%; 
-	float: left; 
-	margin: 10% auto 10% auto;  
-	box-sizing: border-box;  
-}
-.gtext{
-	width: 100%; 
-	float: left;  
-	box-sizing: border-box; 
-}
-.bildspel{
-	width: 50%; 
-	float: right; 
-	margin: 10% 5% 5% 5%;  
-	box-sizing: border-box; 
-}
+
 /* Om mig.  1 continrar med 3boxar en med text och en med bild använder continer och continer-area2. */
 .contact{
 	margin-top: 30px;
@@ -486,10 +510,34 @@ item:first-child {
 	margin:6.2% 0 0 6.2%;
 }
 
-	.bildbox-right {
+.bildbox-right {
 	width: 25%; 
 	float:; 
-	margin:6.2% 6.2% 0 6.2%;}
+	margin:6.2% 6.2% 0 6.2%;
+}
+h2{
+	font-size: 2em;
+}
+.bildbox-left-bred{
+	float: ;
+	width: 52%;
+	margin: auto;
+	margin-left: 6%;
+	border: 0px solid #000;	
+	}
+	.bildbox-left-text{
+	float: ;
+	width: 25%;
+	margin: 0% auto;
+	margin-left: 6%;
+	padding-top: 10%;	
+	}
+	.bildbox-right-text{
+	float: none;
+	width: 25%;
+	margin: 0% auto;
+	padding-top: 10%;		
+	}
 
 }
 
@@ -497,8 +545,8 @@ item:first-child {
 @media screen and (max-width: 583px) {
 	/* Här är inställningarna för första sidan. index.html */
 	.logga1{
-	width: 50%;
-	margin:0px 25%;
+	width: 70%;
+	margin:0px 14%;
 	}
 	.linkbox1 {
 		border-bottom: none;
@@ -525,7 +573,7 @@ item:first-child {
 	margin: 20px auto 40px auto;
 	}	
 	.logga-area{
-	width: 40%;
+	width: 30%;
 	float: none;
 	margin: 0px auto;
 	}
@@ -552,55 +600,53 @@ item:first-child {
 	margin: 6% auto;
 	padding-bottom: 4%;
 	}
-	h2 {
-	font-size: 1.0em;
-	}
+	
 /*Portfolio*/
 	.bildbox-left {
 	width: 70%; 
 	float: none; 
-	margin:5% auto;}
+	margin:3% auto;}
 
 	.bildbox-right {
 	width: 70%; 
 	float: none; 
-	margin: 5% auto;}
+	margin: 3% auto;}
 
-	.bildbox-left2{
+	/*.bildbox-left2{
 		float: none;
 		width: 70%;
-		margin: 4% auto;
-	}
+		margin: 3% auto;
+	}*/
 
 /*Guldsmide*/
-	.vanster{
-	width: 100%; 
+	.flodenlogga{
+	width: 160%; 
 	float: none; 
-	margin:0px;
-	box-sizing: border-box;  
-	}
-	.g-logga{
-	width: 70%; 
-	float: none; 
-	margin:0px 14%;
+	margin:0px -25%;
 	padding: 0px auto;	  
 	box-sizing: border-box;  
 	}	
-	.gtext{
-	width: 100%; 
-	float: none; 
-	padding: 2%; 
-	box-sizing: border-box; 
+	.bildbox-left-bred{
+	float: none;
+	width: 70%;
+	margin: 3% auto;
+	border: 0px solid #000;	
 	}
-	.bildspel{
-	width: 100%; 
-	float: none; 
-	margin: 10% 0px 5% 0px;  
-	box-sizing: border-box; 
+	.bildbox-left-text{
+	float: none;
+	width: 70%;
+	margin: 3% auto;	
 	}
-	p {
-		font-size: 1.0em;
+	.bildbox-right-text{
+	float: none;
+	width: 70%;
+	margin: 3% auto;		
 	}
+	h2{
+		text-align: center;
+		font-size: 1.8em;
+	}
+
 /* om mig*/
 
 	.bild{
@@ -619,7 +665,7 @@ item:first-child {
 		text-align: center;
 	}
 	h5 {
-		font-size: 0.8em;
+		font-size:;
 		text-align: center;
 	}
 	.hide-mobile {
